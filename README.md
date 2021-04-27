@@ -21,3 +21,10 @@
       2. Accept Incoming Change : merge 대상의 상태로 변환
       3. Accept Both Changes : 현재 상태와 merge 대상의 상태를 모두 변환
       4. Compare Changes : 충돌되는 부분을 보여줌.
+
+- fork
+
+  - 타인의 repository 를 본인의 repository 로 복사하는것
+
+- clone
+  - repository 를 local 장소에 다운받는것
