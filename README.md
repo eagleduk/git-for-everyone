@@ -27,4 +27,8 @@
   - 타인의 repository 를 본인의 repository 로 복사하는것
 
 - clone
+
   - repository 를 local 장소에 다운받는것
+
+- pull request
+  - 타인의 repository 를 fork 후, 본인의 repository 에서 수정 및 commit, push 이후 변경 사항을 타인의 respository 에 병합 요청을 하는것
