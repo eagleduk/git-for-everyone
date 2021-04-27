@@ -33,8 +33,17 @@
 - pull request
 
   - 타인의 repository 를 fork 후, 본인의 repository 에서 수정 및 commit, push 이후 변경 사항을 타인의 respository 에 병합 요청을 하는것
+  - pull request 는 git 의 기능이 아니고, github 의 기능이다.
 
 - fetch
+
   - 타인의 repository 를 fork 후, 타인의 repository 의 변경사항(commit) 을 본인의 repository 에 동기화 하는것.
   - fetch 를 수행하면, upstream/master 라는 branch 에 적용된다. 아마도 fork 시 생성되는 branch 로 파악. 실제로 확인 및 선택은 불가능하다.
   - branch 의 변경사항을 master 에 merge 시킨다. 그러면 원본의 변경사항(commit) 이 본인의 repository 에 동기화 된다.
+
+- Issues
+  - repository 의 issue 를 기록하는것
+  - issue 에는 여러가지 라벨을 만들 수 있고, milestone 을 만들 수도 있다.
+  - 각 issue 에 대한 처리 결과를 pull request 로 지정을 하게 된다.
+  - milestone 은 여러 issue 들을 카테고리화 하여 issue 의 달성도를 보여준다.
+  - issue 에 관한 설명은 github 의 issue 기능이고, gitlab, bitbucket 만의 issue 가 따로 있다. (확인을 하지는 않았다.)
